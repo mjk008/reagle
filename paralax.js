@@ -114,10 +114,17 @@ new simpleParallax(image, {
 var image = document.getElementsByClassName('img5 u-image u-image-default u-image-1');
 new simpleParallax(image, {
     overflow: true,
-    orientation: 'down-left',
+    orientation: 'up-right',
     scale:2.6,
     delay:5
 });
 
 
 // the end of the fifth section of the parallax effect//
+var image = document.getElementsByClassName('gif');
+new simpleParallax(image, {
+    overflow: true,
+    orientation: 'up-right',
+    scale:2.6,
+    delay:5
+});
